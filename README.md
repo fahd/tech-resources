@@ -28,7 +28,7 @@ I included this repository for my growing collection of links and resources that
 
 *  [Getting Started with JavaScript](/LearningJavaScript.md)
 
-##### Resources
+
 * [Currying in JavaScript](https://medium.com/@kevincennis/currying-in-javascript-c66080543528)
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript)
@@ -44,7 +44,7 @@ I included this repository for my growing collection of links and resources that
 
 Some resources that I've used to prepare and study algorithms for various coding challenges
 
-###### Resources
+#
 *  [CoderByte](http://www.coderbyte.com)
 2. [CodeEval](http://www.codeeval.com)
 3. [CodeWars](http://www.codewars.com)
@@ -64,7 +64,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 
 <h2>Functional Programming </h2>
 
-##### Resources
+
 *  [Refactoring towards Functional Programming in JavaScript](http://rebootjeff.github.io/blog/2015/06/14/refactoring-towards-functional-programming-in-javascript/)
 2. [Functional Programming & Mutability](http://cultofmetatron.io/one-weird-trick-for-improving-your-javascript/)
 * [Functional Programming Talk](http://scott.sauyet.com/Javascript/Talk/2014/01/FuncProgTalk/)
@@ -101,12 +101,12 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 
 ##### HTML/CSS Questions
 ### Architecture Patterns
-##### Resources
+
 * [MVC Architecture](https://developer.chrome.com/apps/app_frameworks)
 
 
 ### Angular
-##### Resources
+
 * [Angular 1.4 Differences](http://angularjs.blogspot.com/)
 * [Angular 2 Rendering Architecture](https://docs.google.com/document/d/1M9FmT05Q6qpsjgvH1XvCm840yn2eWEg0PMskSQz7k4E/preview?sle=true#)
 * [Angular + REST Made Simple](https://www.youtube.com/watch?v=aGHzqwQU06g);
@@ -125,7 +125,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 
 ##### Questions
 ### React
-##### Resources
+
   * [A beginner's guide to using React](http://prestonparry.com/articles/ReactCurriculum/)
 
 ##### Questions
@@ -133,7 +133,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 
 ## Back-End
 ### Build Tools
-##### Resources
+
 * [Use Grunt to Lint and Uglify Your JavaScript Project](https://blog.nraboy.com/2014/12/use-grunt-lint-uglify-javascript-project/)
 * [How to concatenate and minify multiple CSS and JavaScript files with Grunt](http://stackoverflow.com/questions/13713273/how-to-concatenate-and-minify-multiple-css-and-javascript-files-with-grunt-js-0)
 * [Configuring package.json and Gruntfile.js](http://mikemclin.net/configuring-package-json-and-gruntfile-js/)
@@ -143,7 +143,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 
 
 ### Databases
-##### Resources
+
 * [A brief look at Sequelize, an ORM for Node.js with MySQL, PostgreSQL or SQLITE3](http://davidherron.com/blog/2014-04-26/brief-look-sequelize-orm-nodejs-mysql-postgresql-or-sqlite3)
 * [ACID Compliance](http://www.fredosaurus.com/notes-db/transactions/acid.html)
 * [Association Types in Sequelize](http://docs.sequelizejs.com/en/latest/docs/associations/)
@@ -155,7 +155,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [Working with Relational Data in Bookshelf.js](http://dangertomanifold.com/working-with-relational-data-in-bookshelf-js/)
 
 ### HTTP
-##### Resources
+
 * [A Beginner's Guide to HTTP Cache Headers](http://www.mobify.com/blog/beginners-guide-to-http-cache-headers/)
 * [HTTP/1.1: Status Code Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 * [HTTP/2 is here, let's optimize!](https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present?slide=id.g518e3c87f_0_387)
@@ -164,7 +164,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [What's in an HTTP request (part two)?](http://rve.org.uk/dumprequest)
 
 ### Node/Express
-##### Resources
+
 * [Authentication in NodeJS and ExpressJS with PassportJS - Part 1](https://truongtx.me/2014/03/29/authentication-in-nodejs-and-expressjs-with-passportjs-part-1/)
 * [Authenticating Node.js Applications With Passport](http://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619)
 * [Creating a Node JS MEAN Web Application with Brunch, Sass, and Passport](http://outlandish.com/blog/creating-a-node-js-mean-web-application-with-brunch-sass-and-passport/)
@@ -176,7 +176,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [Why is Node.js single-threaded?](http://stackoverflow.com/questions/17959663/why-is-node-js-single-threaded)
 
 ### Security
-##### Resources
+
 * [Handling User Authentication With the MEAN Stack](http://mherman.org/blog/2015/07/02/handling-user-authentication-with-the-mean-stack/#.VZWTSoAVX5S.reddit)
 * [How to use Passport.js with Sequelize and Postgres](http://sarabinns.com/2014/01/04/how-to-use-passport-js-with-sequelize-and-postgresql/)
 * [Understanding passport.js authentication flow](http://toon.io/understanding-passportjs-authentication-flow/)
@@ -206,15 +206,13 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 
 
 ## Git/Version Control
-##### Resources
+
 * [Changing git commit message after push](http://stackoverflow.com/questions/8981194/changing-git-commit-message-after-push-given-that-no-one-pulled-from-remote)
 * [Command Line Crash Course](http://cli.learncodethehardway.org/book/)
 * [Speeding Up Your Command-Line Workflow](http://wes.is/2015/02/05/speeding-up-your-command-line-workflow/)
 
 
 ## Job Search
-
-##### Resources for finding a job
 * [Angel List](http://www.angel.co)
   * Usually startups, send a note to companies. Also, always send a note on the "Browse Jobs" section. It will include a name of a person you can send a note to. If you apply though a specific job posting, the name of the person disappears in the note you can send. Why this is, I have no idea.
 * Hacker News
@@ -223,9 +221,11 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [Hired](www.hired.com)
   * Coding challenge,(2 mandatory + 1 extra if you get that far in the time limit) unless you've proven you have work experience and the credentials to bypass the challenge. Each application comes up with a "Talent Advocate" that oversees your application
 * [Sourceful](https://github.com/sourceful/jobs)
+  * GitHub repo with links for job posting
 * [TripleByte](https://triplebyte.com/)
     * Coding challenge as part of the applicaton.
 * [White Truffle](http://www.whitetruffle.com)
+    * rapid fire job searching through the click of a button, can be unreliable
 * [Wanna.work](http://wanna.work/t/NodeJS)
 
 ##### Non-technical Articles
