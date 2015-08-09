@@ -25,10 +25,7 @@ I included this repository for my growing collection of links and resources that
 
 
 ## JavaScript Fundamentals
-
 *  [Getting Started with JavaScript](/LearningJavaScript.md)
-
-
 * [Currying in JavaScript](https://medium.com/@kevincennis/currying-in-javascript-c66080543528)
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript)
