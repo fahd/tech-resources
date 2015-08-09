@@ -10,15 +10,21 @@
 
     returns [1, 2, 3, 6, 9, 8, 7, 4, 5]
  */
+
+
+
 var spiralTraversal = function(matrix){
-  var arr = newMatrix = temp = [];
+  var arr = [];
+  var newMatrix = [];
+  var temp = [];
+
   while (matrix.length){
     // pop off the first row, then rotate the board counter-clockwise for the first time
     // board is equal to [4,5,6],
     //                   [7,8,9]
     matrix[0].forEach(function(item){arr.push(item)});
     matrix.shift();
-    if (matrix.length === 0) return arr;
+    if (matrix.length === 0){return arr;}
     while (matrix[0].length){
       for (var i = 0; i < matrix.length; i++){
         temp.push(matrix[i].pop());
@@ -29,7 +35,7 @@ var spiralTraversal = function(matrix){
    // newMatrix is now [
    //                    [6,9],
    //                    [5,8],
-   //                    [9,7]]
+   //                    [4,7]]
    //                   ]
    // matrix is [[],[]]
    matrix = newMatrix.slice();

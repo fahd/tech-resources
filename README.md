@@ -191,7 +191,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [What is the difference between TDD and BDD?](https://ihassin.wordpress.com/2014/04/07/what-is-the-difference-between-tdd-and-bdd/)
 
 
-## Develop
+## Optimization and other stuff
 
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
   * How to optimize your website
