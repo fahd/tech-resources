@@ -36,7 +36,7 @@ Some resources that I've used to prepare and study algorithms for various coding
 
 ## JavaScript Fundamentals
 
-*  [Getting Started with JavaScript](../LearningJavascript.md)
+*  [Getting Started with JavaScript](/LearningJavascript.md)
 
 
 
