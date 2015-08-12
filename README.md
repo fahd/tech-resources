@@ -48,6 +48,7 @@ Some resources that I've used to prepare and study algorithms for various coding
 4. [InterviewCake](http://www.interviewcake.com) (requires subscription)
 5. [LeetCode](http://www.leetcode.com)
 6. [ProgramCreek](http://www.programcreek.com) (A lot of Java solutions, but you can just look at the logic)
+7. [RegExr](http://www.regexr.com/) Great tool to visualize RegEx matches
 
 ##### Articles
 *  [Understanding Big O Notation](https://www.interviewcake.com/article/big-o-notation-time-and-space-complexity)
@@ -57,11 +58,11 @@ Some resources that I've used to prepare and study algorithms for various coding
 Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.pdf)
 4. [What are the 10 must know algorithms and data structures for a software engineer?](http://www.quora.com/What-are-the-10-must-know-algorithms-and-data-structures-for-a-software-engineer)
 5. [I am planning to quit my job and study algorithms full-time for one year. Can anyone give me some advice?](http://www.quora.com/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
+6. [RegEx One](http://regexone.com/) Interative Tutorial for RegEx
+7. [RegEx Chapter in Eloquent JavaScript](http://eloquentjavascript.net/09_regexp.html)
 
 
 <h2>Functional Programming </h2>
-
-
 *  [Refactoring towards Functional Programming in JavaScript](http://rebootjeff.github.io/blog/2015/06/14/refactoring-towards-functional-programming-in-javascript/)
 2. [Functional Programming & Mutability](http://cultofmetatron.io/one-weird-trick-for-improving-your-javascript/)
 * [Functional Programming Talk](http://scott.sauyet.com/Javascript/Talk/2014/01/FuncProgTalk/)
