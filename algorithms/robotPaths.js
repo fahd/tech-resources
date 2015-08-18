@@ -34,20 +34,25 @@ var robotPaths = function(n) {
 var traverse = function (board,i,j){
     if (i === n-1 && j === n-1){
       // toggle the piece so that it can be untoggled in other paths
+      // this is necessary because if we didn't, breaking out of the recursive call
+      // would toggle the final position to be true, affecting other decisions
       board.togglePiece(i,j);
       count++;
+      // break out of our recursive call
       return;
     }
     board.togglePiece(i,j);
     // our recursive function will reset the toggled piece to be used in other paths
     if (j+1 < n && board[i][j+1] === false){
       traverse(board,i,j+1);
+      // once we've broken out of the recursive call for traverse on a successful path, we'll untoggle the piece that was toggled to be used in other paths
       board.togglePiece(i,j+1)
     }
     if (i+1 < n && board[i+1][j] === false){
       traverse(board,i+1,j);
       board.togglePiece(i+1,j)
     }
+    // only check further rows and columns if they exist
     if (j-1 > -1 && board[i][j-1] === false){
       traverse(board,i,j-1);
       board.togglePiece(i,j-1)
