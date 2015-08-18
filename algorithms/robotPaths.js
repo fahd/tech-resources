@@ -31,7 +31,7 @@ var robotPaths = function(n) {
   var i = 0, j = 0, count = 0;
   // number of possible solutions that we can have
   var count = 0;
-var traverse = function (board,i,j){
+  (function traverse (board,i,j){
     if (i === n-1 && j === n-1){
       // toggle the piece so that it can be untoggled in other paths
       // this is necessary because if we didn't, breaking out of the recursive call
@@ -64,8 +64,7 @@ var traverse = function (board,i,j){
     // if we've exhausted a path, break out of the current recursive call and jump back up
     // the call stack
     return;
-};
-  traverse(board,i,j);
+}(board,i,j));
   return count;
 };
 
