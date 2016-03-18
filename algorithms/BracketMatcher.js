@@ -1,3 +1,18 @@
+//better solution
+var BracketMatcher = function (string){
+  var choices = {
+    '{':'}',
+    '[':']',
+    '(':')'
+  };
+  return Array.prototype.reduce.call(string, function(m,v){
+    choices[m[m.length-1]] === v ? m.pop() : m.push(v);
+    return m;
+  },[]).length === 0;
+};
+
+
+
 var BracketMatcher = function(string) {
   var lefts = {
       '[': ']',
