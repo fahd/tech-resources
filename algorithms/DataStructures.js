@@ -26,7 +26,7 @@ LinkedList.prototype.removeFromHead = function() {
 LinkedList.prototype.contains = function(val) {
   val node = this.head;
   while (node) {
-    if (this.head.value === val) {
+    if (node.value === val) {
       return true;
     }
     node = node.next;
