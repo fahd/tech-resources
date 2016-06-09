@@ -11,7 +11,7 @@ a[d] = 'baz';
 console.log(a[c]);
 // logs baz
 
-// when represented in an object, setting a property as an object sets that property to
+// when represented in an object, setting an object as a property sets it to
 // a {
 //  '[object Object]' : ...
 // }
