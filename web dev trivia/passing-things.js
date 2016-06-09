@@ -15,7 +15,7 @@ alter(num, name, obj);
 console.log(num);
 // 1
 console.log('The best superhero:', name);
-// Batman
+// Superman
 console.log(obj.val);
 // second
 
