@@ -1,5 +1,3 @@
-/*jshint expr:true*/
-
 /*
  * Bubble sort is the most basic sorting algorithm in all of Computer
  * Sciencedom. It works by starting at the first element of an array and
@@ -34,49 +32,6 @@
 // Introduce i into the global scope so we can test function efficiency
 
 
-var i;
-//we are given an array, and we want to output the same array.
-//therefore, we do not want to mutate anything.
-
-//cases
-  //array is sorted entirely, so it would be O(n) given that we're just iterating over the array
-  //array is entirely unsorted, so it would be a function of the input size, and would be O(n)^n, dependent
-    //upon how many items there are in the list
-
-//loop through the array, and compare the current value to the one that comes before it (in order to circumvent
-//the situation where the last item isn't compared to something that doesn't exist. This shouldn't be a problem
-//anyways)
-
-//if the one that comes before it is greater than the current element, store the current element in a temporary variable
-//set the current element to the one before
-//set the element before the current element to be the temporary element.
-//continue until the end of the array
-
-//say we had [1,4,2,6,3]
-//first iteration -> [1,2,4,3,6]
-
-
-
-var swap = function (array, current, next){
-  var temp = array[current];
-  array[current] = array[next];
-  array[next] = temp;
-}
-
 var bubbleSort = function (array){
-  var isSwapped = false;
-  for (var i = 0; i < array.length; i++){
-    if (array[i] > array[i+1]){
-      swap(array, i, i+1);
-      isSwapped = true;
-    }
-  }
-  return isSwapped ? bubbleSort(array) : array;
+
 };
-
-
-
-
-
-
-

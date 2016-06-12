@@ -1,3 +1,5 @@
+// for your viewing pleasurre
+
 // ************************************* LinkedList
 function LinkedList() {
   this.head = this.tail = undefined;
@@ -189,94 +191,190 @@ Graph.prototype.forEachNode = function (cb){
   }
 };
 // ************************************* HashTable
+// var HashTable = function (){
+//   this.limit = 4;
+//   this._storage = [];
+//   this.currentSize = 0;
+// };
 
-var HashTable = function (){
-  this.limit = 4;
+// HashTable.prototype.insert = function (key,value){
+//   var hash = makeHash (key,this.limit);
+//   var bucket = this._storage[hash] || [];
+
+//   for (var i = 0; i < bucket.length; i++){
+//     var tuple = bucket[i];
+//       if (tuple[0] === key){
+//         tuple[1] = value;
+//         return;
+//       }
+//   }
+
+//   bucket.push([key,value]);
+//   this._storage[hash] = bucket;
+//   this.currentSize++;
+
+//   if (this.currentSize >= 0.75 * this.limit){
+//     this.resize(2 * this.limit);
+//   }
+// };
+
+// HashTable.prototype.retrieve = function (key){
+//   var hash = makeHash(key,this.limit),
+//       value,
+//       bucket,
+//       tuple;
+
+//   bucket = this._storage[hash];
+//   if (bucket.length === 0){
+//     value = null;
+//   }
+//   for (var i = 0; i < bucket.length; i++){
+//     tuple = bucket[i];
+//     if (tuple[0] === key){
+//       value = tuple[1];
+//     }
+//   }
+//   return value;
+// };
+
+// HashTable.prototype.remove = function (key){
+//   var value, hash, bucket, tuple, i;
+
+//   hash = makeHash(key,this.limit);
+//   bucket = this._storage[hash];
+
+//   for (i = 0; i < bucket.length; i++){
+//     tuple = bucket[i];
+//     if (tuple[0] === key){
+//       value = tuple[1];
+//       delete tuple;
+//       this.currentSize--;
+//     }
+//   }
+
+//   if (this.currentSize <= (0.25 * this.limit)) {
+//     this.resize(0.25 * this.limit);
+//   }
+
+//   return value;
+// };
+
+// HashTable.prototype.resize = function(newSize){
+//   var storage = [], i, j;
+//   // push all of the tuples found in the buckets into a new storage array
+//   for (i = 0; i < this._storage.length; i++){
+//     if (!this._storage[i]){continue;}
+//     for (j = 0; j < this._storage[i].length; j++){
+//       if (!this._storage[i][j]){continue;}
+//       storage.push(this._storage[i][j]);
+//     }
+//   }
+//   // reset storage size to double or half the current size
+//   this.limit = newSize;
+//   this._storage = [];
+//   this.currentSize = 0;
+//   // reinsert everything into our hashTable
+//   for (i = 0; i < storage.length; i++){
+//     this.insert(storage[i][0],storage[i][1]);
+//   }
+// };
+
+// var makeHash = function(key,max){
+//   var hash = 0;
+//   for (var i = 0; i<key.length; i++){
+//     hash = (hash<<5) + hash + key.charCodeAt(i);
+//     hash = hash & hash;
+//     hash = Math.abs(hash);
+//   }
+//   return hash % max
+// }
+var HashTable = function(maxSize){
+  this._size = 0;
   this._storage = [];
-  this.currentSize = 0;
+  this._max = maxSize;
 };
 
 HashTable.prototype.insert = function (key,value){
-  var hash = makeHash (key,this.limit);
-  var bucket = this._storage[hash] || [];
+  var hash = makeHash(key,this._max);
+  this._storage[hash] = this._storage[hash] || [];
+  var bucket = this._storage[hash];
 
-  for (var i = 0; i < bucket.length; i++){
-    var tuple = bucket[i];
-      if (tuple[0] === key){
-        tuple[1] = value;
+  // in case there are already values in the bucket
+  if (bucket.length > 0){
+    for (var i = 0; i < bucket.length; i++){
+      if (bucket[i][0] === key){
+        bucket[i][1] = value;
         return;
       }
-  }
-
+    }
+  } 
   bucket.push([key,value]);
-  this._storage[hash] = bucket;
-  this.currentSize++;
+  this._size++;   
+  
 
-  if (this.currentSize >= 0.75 * this.limit){
-    this.resize(2 * this.limit);
-  }
+  if (this._size >= 0.75 * this._max){
+    this.resize(this._max * 2);
+  } 
 };
 
 HashTable.prototype.retrieve = function (key){
-  var hash = makeHash(key,this.limit),
-      value,
-      bucket,
-      tuple;
+  var hash = makeHash(key, this._max), val = null, bucket;
+  bucket = this._storage[hash]
 
-  bucket = this._storage[hash];
-  if (bucket.length === 0){
-    value = null;
-  }
-  for (var i = 0; i < bucket.length; i++){
-    tuple = bucket[i];
-    if (tuple[0] === key){
-      value = tuple[1];
+  if (bucket !== undefined){
+    for (var i = 0; i < bucket.length;i++){
+      if (!bucket[i][0]) continue;
+      else if (bucket[i][0] === key){
+        val = bucket[i][1];
+      }
     }
   }
-  return value;
+
+  return val;
 };
 
 HashTable.prototype.remove = function (key){
-  var value, hash, bucket, tuple, i;
+  var hash = makeHash(key, this._max), val = null;
+  var bucket = this._storage[hash];
 
-  hash = makeHash(key,this.limit);
-  bucket = this._storage[hash];
-
-  for (i = 0; i < bucket.length; i++){
-    tuple = bucket[i];
-    if (tuple[0] === key){
-      value = tuple[1];
-      delete tuple;
-      this.currentSize--;
-    }
+  if (bucket !== undefined){
+    for (var i = 0; i < bucket.length; i++){
+      if (bucket[i][0] === key){
+        val = bucket[i][1];
+        delete bucket[i];
+        this._size--;
+      }
+    }   
   }
 
-  if (this.currentSize <= (0.25 * this.limit)) {
-    this.resize(0.25 * this.limit);
-  }
 
-  return value;
+  if (this._size <= 0.25 * this._max){
+    this.resize(0.5 * this._max);
+  }
+  return val;
 };
 
 HashTable.prototype.resize = function(newSize){
-  var storage = [], i, j;
-  // push all of the tuples found in the buckets into a new storage array
-  for (i = 0; i < this._storage.length; i++){
-    if (!this._storage[i]){continue;}
-    for (j = 0; j < this._storage[i].length; j++){
-      if (!this._storage[i][j]){continue;}
-      storage.push(this._storage[i][j]);
+  var old = this._storage.reduce(function(m,v){
+    if (v !== undefined){
+      v.reduce(function(m2,v2){
+        m2.push([v2[0],v2[1]]);
+        return m2;
+      },m);
     }
-  }
-  // reset storage size to double or half the current size
-  this.limit = newSize;
+    return m;
+  },[]);
+  this._max = newSize;
   this._storage = [];
-  this.currentSize = 0;
-  // reinsert everything into our hashTable
-  for (i = 0; i < storage.length; i++){
-    this.insert(storage[i][0],storage[i][1]);
-  }
+  this._size = 0;
+  var that = this;
+
+  return old.reduce(function(m,v){
+    that.insert(v[0],v[1]);
+    return m;
+  },this._storage);
 };
+
 
 var makeHash = function(key,max){
   var hash = 0;
@@ -287,5 +385,4 @@ var makeHash = function(key,max){
   }
   return hash % max
 }
-
 
