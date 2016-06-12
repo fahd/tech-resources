@@ -3,6 +3,8 @@
 
 I included this repository for my growing collection of links and resources that I've accumulated. My bookmarks folder is overflowing with links and articles, so I figured I'd give it some structure and slap it on GitHub.
 
+For the algorithms, I'll keep adding them, but solutions are on the "Solutions" branch.
+
 ## General
 ##### Programming & Development Related Articles
 * [A Great Free Harvard Course That Teaches Amazing Introductory C Coding](https://www.reddit.com/r/programming/comments/3g9ws6/a_great_free_harvard_course_that_teaches_amazing/)
