@@ -61,12 +61,14 @@ Some resources that I've used to prepare and study algorithms for various coding
 3. [CodeFights](http://codefights.com)
   * haven't tried, seems fun?
 3. [CodeWars](http://www.codewars.com)
-  * it's centered on more language-specific (you choose the language) nuances and more random platform for learning than studying data structures or general purpose stuff - great for building your trust with a particular language.
+  * it's centered on more language-specific (you choose the language) nuances and more random platform for learning than studying data structures or general purpose stuff - great for building your trust with a particular language. I use this to play around/test myself with syntax of new languages I learn.
 4. [InterviewCake](http://www.interviewcake.com)
   * (requires subscription)
-5. [LeetCode](http://www.leetcode.com)
+5. [LeetCode](http://www.leetcode.com) - My favorite so far and used by a lot of my peers.
 6. [ProgramCreek](http://www.programcreek.com) (A lot of Java solutions, but you can just look at the logic)
 7. [RegExr](http://www.regexr.com/) Great tool to visualize RegEx matches
+8. [Project Euler](https://projecteuler.net/) Classic tool for solving language agnostic problems. 
+9. [Codeforces](http://codeforces.com/) - never used before, recommended to me on reddit.
 
 ##### Articles
 *  [Understanding Big O Notation](https://www.interviewcake.com/article/big-o-notation-time-and-space-complexity)
@@ -245,8 +247,9 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [Wanna.work](http://wanna.work/t/NodeJS)
 
 ##### Non-technical Articles
-* #### [Software Engineer's Guide to Ditching Your Resume](http://www.mgadams.com/2016/05/09/the-software-engineers-guide-to-depreciating-your-resume/)
+#### [Software Engineer's Guide to Ditching Your Resume](http://www.mgadams.com/2016/05/09/the-software-engineers-guide-to-depreciating-your-resume/)
   * START HERE and read this now!
+
 *  [A Baseline for Front-End [JS] Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
 *  [An Unconventional Guide for Getting a Software Engineering Job](http://www.juliahgrace.com/blog/2015/4/9/an-unconventional-guide-for-getting-a-software-engineering-job)
 *  [12 (Non-technical) Steps to Be a Better Developer](http://rebootjeff.github.io/blog/2013/08/24/event-review-12-non-technical-steps-to-be-a-better-developer/)
@@ -276,7 +279,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 4. [JavaScript Interview Questions](https://github.com/malachaifrazier/JavaScript-Interview-Questions)
 
 ##### Offers & Contracts
-* #### [The Software Engineer’s Guide to Negotiating a Raise](http://www.mgadams.com/2015/06/30/the-software-engineers-guide-to-negotiating-a-raise/)
+#### [The Software Engineer’s Guide to Negotiating a Raise](http://www.mgadams.com/2015/06/30/the-software-engineers-guide-to-negotiating-a-raise/)
  * absolute killer read. read this. no, really, read this.
 1. [Contract Killer](https://gist.github.com/malarkey/4031110) Great article on handling contracts
 2. [Salary Negotiation: Make More Money, Be More Valued](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
