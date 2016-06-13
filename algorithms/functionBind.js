@@ -1,4 +1,3 @@
-
 /*
 Create a function that binds to a specific context, in this case as a free-function invocation
 
@@ -26,7 +25,7 @@ result === 'foobar'; // true
 
 var bind = function (){
   
-}
+};
 
 
 
