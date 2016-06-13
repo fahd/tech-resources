@@ -3,7 +3,6 @@
 
 I included this repository for my growing collection of links and resources that I've accumulated. My bookmarks folder is overflowing with links and articles, so I figured I'd give it some structure and slap it on GitHub.
 
-For the algorithms, I'll keep adding them, but solutions are on the "Solutions" branch.
 
 ## General
 ##### Programming & Development Related Articles
@@ -27,15 +26,21 @@ For the algorithms, I'll keep adding them, but solutions are on the "Solutions" 
 
 
 ## JavaScript Fundamentals
-*  [Getting Started with JavaScript](/LearningJavaScript.md)
-* [Currying in JavaScript](https://medium.com/@kevincennis/currying-in-javascript-c66080543528)
+*  [Getting Started with JavaScript](https://github.com/rkho/javascript-beginners-curriculum)
+ * try to use free trials/coupons to overcome the cost. I never paid for memberships!
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+  * My favorite resource for starting out - I only used Chapters 1-6 though.
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
+  * Great for real nuanced details about JavaScript
 * [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript)
-* [Method-Chaining In JavaScript](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html)
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+  * Awesome open-sourced book!
 * [OOP in JavaScript: What you need to know](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+* [Method-Chaining In JavaScript](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html)
 * [Polymorphism in JavaScript](http://stackoverflow.com/questions/27642239/what-is-polymorphism-in-javascript)
 * [What is the difference between a process and a thread?](http://stackoverflow.com/questions/200469/what-is-the-difference-between-a-process-and-a-thread)
 * [What is the scope of variables in JavaScript?](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript)
+* [Currying in JavaScript](https://medium.com/@kevincennis/currying-in-javascript-c66080543528)
 
 ##### Questions
 
@@ -43,7 +48,13 @@ For the algorithms, I'll keep adding them, but solutions are on the "Solutions" 
 
 Some resources that I've used to prepare and study algorithms for various coding challenges
 
-#
+##### Algorithms/Data Structures in JavaScript
+* [Computer Science in JavaScript](https://github.com/nzakas/computer-science-in-javascript)
+ * Algorithms in JavaScript, GitHub repo
+* [Data Structures in JavaScript](https://github.com/Bishop92/JavaScript-Data-Structures)
+   * GitHub repo
+
+##### General Purpose Algorithm Information
 *  [CoderByte](http://www.coderbyte.com)
 2. [CodeEval](http://www.codeeval.com)
 3. [CodeWars](http://www.codewars.com)
@@ -229,7 +240,8 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [Wanna.work](http://wanna.work/t/NodeJS)
 
 ##### Non-technical Articles
-
+* #### [Software Engineer's Guide to Ditching Your Resume](http://www.mgadams.com/2016/05/09/the-software-engineers-guide-to-depreciating-your-resume/)
+  * START HERE and read this now!
 *  [A Baseline for Front-End [JS] Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
 *  [An Unconventional Guide for Getting a Software Engineering Job](http://www.juliahgrace.com/blog/2015/4/9/an-unconventional-guide-for-getting-a-software-engineering-job)
 *  [12 (Non-technical) Steps to Be a Better Developer](http://rebootjeff.github.io/blog/2013/08/24/event-review-12-non-technical-steps-to-be-a-better-developer/)
@@ -259,6 +271,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 4. [JavaScript Interview Questions](https://github.com/malachaifrazier/JavaScript-Interview-Questions)
 
 ##### Offers & Contracts
-
-*  [Contract Killer](https://gist.github.com/malarkey/4031110) Great article on handling contracts
+* #### [The Software Engineer’s Guide to Negotiating a Raise](http://www.mgadams.com/2015/06/30/the-software-engineers-guide-to-negotiating-a-raise/)
+ * absolute killer read. read this. no, really, read this.
+1. [Contract Killer](https://gist.github.com/malarkey/4031110) Great article on handling contracts
 2. [Salary Negotiation: Make More Money, Be More Valued](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
