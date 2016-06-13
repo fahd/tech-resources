@@ -56,9 +56,14 @@ Some resources that I've used to prepare and study algorithms for various coding
 
 ##### General Purpose Algorithm Information
 *  [CoderByte](http://www.coderbyte.com)
+  * No longer free :/
 2. [CodeEval](http://www.codeeval.com)
+3. [CodeFights](http://codefights.com)
+  * haven't tried, seems fun?
 3. [CodeWars](http://www.codewars.com)
-4. [InterviewCake](http://www.interviewcake.com) (requires subscription)
+  * it's centered on more language-specific (you choose the language) nuances and more random platform for learning than studying data structures or general purpose stuff - great for building your trust with a particular language.
+4. [InterviewCake](http://www.interviewcake.com)
+  * (requires subscription)
 5. [LeetCode](http://www.leetcode.com)
 6. [ProgramCreek](http://www.programcreek.com) (A lot of Java solutions, but you can just look at the logic)
 7. [RegExr](http://www.regexr.com/) Great tool to visualize RegEx matches
