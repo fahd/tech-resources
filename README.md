@@ -1,7 +1,9 @@
 
 ## Getting Started
 
-I included this repository for my growing collection of links and resources that I've accumulated. My bookmarks folder is overflowing with links and articles, so I figured I'd give it some structure and slap it on GitHub.
+I included this repository for my growing collection of links and resources that I've accumulated. My bookmarks folder is overflowing with links and articles, so I figured I'd give it some structure and slap it on GitHub. 
+
+(Web-dev folder are my answers to this repo(https://github.com/arosenberg01/web-dev-trivia))
 
 If there's only one section to read, make sure you go to the job-search stuff at the bottom! 
 
