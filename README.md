@@ -3,6 +3,8 @@
 
 I included this repository for my growing collection of links and resources that I've accumulated. My bookmarks folder is overflowing with links and articles, so I figured I'd give it some structure and slap it on GitHub.
 
+If there's only one section to read, make sure you go to the job-search stuff at the bottom! 
+
 
 ## General
 ##### Programming & Development Related Articles
@@ -21,6 +23,8 @@ I included this repository for my growing collection of links and resources that
 
 ##### Non-technical articles
 * [The Art of Not Knowing](https://medium.com/@christophernoessel/the-art-of-not-knowing-c1a128d02973)
+* [Nobody Knows What They're Doing](https://blog.devcolor.org/nobody-knows-what-they-re-doing-42b5c3ee487d?gi=ec215cd8d582)
+ * Great article from Facebook dev and adjusting on the job
 
 
 
@@ -41,6 +45,7 @@ I included this repository for my growing collection of links and resources that
 * [What is the difference between a process and a thread?](http://stackoverflow.com/questions/200469/what-is-the-difference-between-a-process-and-a-thread)
 * [What is the scope of variables in JavaScript?](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript)
 * [Currying in JavaScript](https://medium.com/@kevincennis/currying-in-javascript-c66080543528)
+* 3.[(video- 42mins) Immutable JavaScript](https://www.youtube.com/watch?v=wA98Coal4jk)
 
 ##### Questions
 
@@ -82,7 +87,7 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 7. [RegEx Chapter in Eloquent JavaScript](http://eloquentjavascript.net/09_regexp.html)
 
 
-<h2>Functional Programming </h2>
+<h2>Functional Programming</h2>
 *  [Refactoring towards Functional Programming in JavaScript](http://rebootjeff.github.io/blog/2015/06/14/refactoring-towards-functional-programming-in-javascript/)
 2. [Functional Programming & Mutability](http://cultofmetatron.io/one-weird-trick-for-improving-your-javascript/)
 * [Functional Programming Talk](http://scott.sauyet.com/Javascript/Talk/2014/01/FuncProgTalk/)
@@ -209,8 +214,9 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [What is the difference between TDD and BDD?](https://ihassin.wordpress.com/2014/04/07/what-is-the-difference-between-tdd-and-bdd/)
 
 
-## Optimization and other stuff
-
+## Network/Optimization/ other stuff
+* [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
+  * Lengthy, *lengthy* read, great deep dive though
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
   * How to optimize your website
 * [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
