@@ -25,6 +25,7 @@ If there's only one section to read, make sure you go to the job-search stuff at
 * [The Art of Not Knowing](https://medium.com/@christophernoessel/the-art-of-not-knowing-c1a128d02973)
 * [Nobody Knows What They're Doing](https://blog.devcolor.org/nobody-knows-what-they-re-doing-42b5c3ee487d?gi=ec215cd8d582)
  * Great article from Facebook dev and adjusting on the job
+*[(TED talk) How to Make Hard Choices](https://www.ted.com/talks/ruth_chang_how_to_make_hard_choices?language=en)
 
 
 
@@ -45,7 +46,7 @@ If there's only one section to read, make sure you go to the job-search stuff at
 * [What is the difference between a process and a thread?](http://stackoverflow.com/questions/200469/what-is-the-difference-between-a-process-and-a-thread)
 * [What is the scope of variables in JavaScript?](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript)
 * [Currying in JavaScript](https://medium.com/@kevincennis/currying-in-javascript-c66080543528)
-* 3.[(video- 42mins) Immutable JavaScript](https://www.youtube.com/watch?v=wA98Coal4jk)
+* [(video- 42mins) Immutable JavaScript](https://www.youtube.com/watch?v=wA98Coal4jk)
 
 ##### Questions
 
@@ -150,9 +151,10 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 ### React
 
   * [A beginner's guide to using React](http://prestonparry.com/articles/ReactCurriculum/)
-
-##### Questions
-  (todo)
+  * [Stephen Grider's awesome Udemy courses](https://www.udemy.com/user/sgslo/)
+  * [Egghead.io -Getting started with Redux](https://egghead.io/courses/getting-started-with-redux)
+  * [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
+    * highly recommended by my peers
 
 ## Back-End
 ### Build Tools
