@@ -10,6 +10,8 @@ If there's only one section to read, make sure you go to the job-search stuff at
 
 ## General
 ##### Programming & Development Related Articles
+###### [FreeCodeCamp](https://www.freecodecamp.com/)- for just starting out, great overall program and track to learn how to code!
+
 * [A Great Free Harvard Course That Teaches Amazing Introductory C Coding](https://www.reddit.com/r/programming/comments/3g9ws6/a_great_free_harvard_course_that_teaches_amazing/)
 * [Become a Programmer!!!](http://programming-motherfucker.com/become.html)
 * [Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
