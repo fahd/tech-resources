@@ -296,4 +296,5 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 1. [Contract Killer](https://gist.github.com/malarkey/4031110) Great article on handling contracts
 2. [Salary Negotiation: Make More Money, Be More Valued](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 3. [Salary Negotiation: Part DOS](http://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)
+4. [How Not To Bomb Your Offer Negotiation](http://haseebq.com/how-not-to-bomb-your-offer-negotiation/)
 7. [OG Equity Compensation](https://github.com/jlevy/og-equity-compensation)
