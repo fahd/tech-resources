@@ -245,9 +245,10 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 ## Job Search
 * [Angel List](http://www.angel.co)
   * Usually startups, send a note to companies. Also, always send a note on the "Browse Jobs" section. It will include a name of a person you can send a note to. If you apply though a specific job posting, the name of the person disappears in the note you can send. Why this is, I have no idea.
+* [We Work Remotely](www.weworkremotely.com)
+  * Remote gigs - I've always had good response with them.
 * Hacker News
-    * Hacker News usually has a monthly "Who is Hiring?" megathread. To find that, googling the current month + "who is hiring" is probably the best option (unless there is some direct link I don't know about to the current month's postings). Also,
-    [HN Jobs](https://news.ycombinator.com/jobs)
+    * Hacker News usually has a monthly "Who is Hiring?" megathread. To find that, googling the current month and year + "who is hiring" Also, [HN Jobs](https://news.ycombinator.com/jobs.
 * [Hired](www.hired.com)
   * Coding challenge,(2 mandatory + 1 extra if you get that far in the time limit) unless you've proven you have work experience and the credentials to bypass the challenge. Each application comes up with a "Talent Advocate" that oversees your application
 * [Sourceful](https://github.com/sourceful/jobs)
@@ -257,6 +258,8 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 * [White Truffle](http://www.whitetruffle.com)
     * rapid fire job searching through the click of a button, can be unreliable
 * [Wanna.work](http://wanna.work/t/NodeJS)
+
+I optimize my search by directly emailing people at companies I'm in, leveraging referrals, and lastly, strategically attending JavaScript-related meetups and events for networking
 
 ##### Non-technical Articles
 #### [Software Engineer's Guide to Ditching Your Resume](http://www.mgadams.com/2016/05/09/the-software-engineers-guide-to-depreciating-your-resume/)
