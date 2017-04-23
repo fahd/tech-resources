@@ -245,11 +245,11 @@ Recursive Backtracking](http://www.fas.harvard.edu/~cscie119/lectures/recursion.
 ## Job Search
 * [Angel List](http://www.angel.co)
   * Usually startups, send a note to companies. Also, always send a note on the "Browse Jobs" section. It will include a name of a person you can send a note to. If you apply though a specific job posting, the name of the person disappears in the note you can send. Why this is, I have no idea.
-* [We Work Remotely](www.weworkremotely.com)
+* [We Work Remotely](http://www.weworkremotely.com)
   * Remote gigs - I've always had good response with them.
 * Hacker News
     * Hacker News usually has a monthly "Who is Hiring?" megathread. To find that, googling the current month and year + "who is hiring" Also, [HN Jobs](https://news.ycombinator.com/jobs.
-* [Hired](www.hired.com)
+* [Hired](http://www.hired.com)
   * Coding challenge,(2 mandatory + 1 extra if you get that far in the time limit) unless you've proven you have work experience and the credentials to bypass the challenge. Each application comes up with a "Talent Advocate" that oversees your application
 * [Sourceful](https://github.com/sourceful/jobs)
   * GitHub repo with links for job posting
